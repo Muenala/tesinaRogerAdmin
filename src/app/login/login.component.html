@@ -1,0 +1,27 @@
+<script src="https://kit.fontawesome.com/a24879a822.js" crossorigin="anonymous"></script>
+<div class="contenedor">
+<div class="subContenedor"></div>
+<div class="filter"></div>
+<div class="box">
+  <div class="form">
+    <h2>TSAFIAPP </h2>
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-user"></i>
+      <input type="text" [(ngModel)]="username" placeholder="Usuario" required='required'>     
+    </div>
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-lock"></i>
+      <input type="text" [(ngModel)]="password"placeholder="Contraseña" required='required'>  
+    </div>
+    
+
+    <input (click)="iniciarSesion()" class='loginButton' type="submit" value="Iniciar sesión">
+
+    
+  
+  </div>
+</div>
+  
+</div>
